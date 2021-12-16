@@ -1,0 +1,21 @@
+{
+  "name": "publicator-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "node project_managment/init.js",
+    "clean": "node project_managment/clean.js",
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "image-downloader": "^4.0.3",
+    "inquirer": "^8.2.0",
+    "mammoth": "^1.4.19",
+    "moment": "^2.29.1",
+    "sharp": "^0.29.3"
+  }
+}
